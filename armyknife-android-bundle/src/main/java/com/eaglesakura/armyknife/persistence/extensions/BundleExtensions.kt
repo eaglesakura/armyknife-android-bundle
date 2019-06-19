@@ -4,7 +4,16 @@ package com.eaglesakura.armyknife.persistence.extensions
 
 import android.os.Bundle
 import android.os.Parcelable
-import com.eaglesakura.armyknife.android.os.*
+import com.eaglesakura.armyknife.android.os.BundleByteArrayExtra
+import com.eaglesakura.armyknife.android.os.BundleDoubleExtra
+import com.eaglesakura.armyknife.android.os.BundleExtra
+import com.eaglesakura.armyknife.android.os.BundleFloatExtra
+import com.eaglesakura.armyknife.android.os.BundleInBundleExtra
+import com.eaglesakura.armyknife.android.os.BundleIntExtra
+import com.eaglesakura.armyknife.android.os.BundleLongExtra
+import com.eaglesakura.armyknife.android.os.BundleMarshalParcelableExtra
+import com.eaglesakura.armyknife.android.os.BundleParcelableExtra
+import com.eaglesakura.armyknife.android.os.BundleStringExtra
 
 /**
  * Bundle to kotlin delegate.
